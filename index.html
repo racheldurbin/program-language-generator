@@ -7,14 +7,19 @@
   <script src="js/scripts.js"></script>
   <title>Programming Language Generator</title>
 </head>
+
 <body>
   <div class="container">
     <h1>Fill in the survey below to see what programming language would suit you best:</h1>
+  <div>
+    <form id="formOne">
+      <div class="form-group">
+        <label for="person">Enter your name:</label>
+        <input id="person" class="form-control" type="text">
+    </form>
   </div>
-  
-//Enter your name
 
-//Would you say you are more of a: (type)
+  <h3>Would you say you are more of a: (type)</h3>
   <div class="radio">
     <label>
       <input type="radio" name="type" value="designer" checked>
@@ -34,7 +39,7 @@
     </label>
   </div>
 
-//Do you like to challenge yourself?: (simpleResponse)
+<h3>Do you like to challenge yourself?: (simpleResponse)</h3>
 <div class="radio">
   <label>
     <input type="radio" name="simpleResponse" value="yes" checked>
@@ -54,7 +59,7 @@
   </label>
 </div>
 
-//What is your relationship with technology: (relationship)
+<h3>What is your relationship with technology: (relationship)</h3>
 <div class="radio">
   <label>
     <input type="radio" name="relationship" value="casual" checked>
@@ -73,6 +78,8 @@
     We go wayyy back
   </label>
 </div>
+
+<button type="submit" class="btn btn-default">Submit</button>
 
 </body>
 </html>
