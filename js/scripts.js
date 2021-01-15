@@ -2,8 +2,8 @@ $(document).ready(function() {
   $("#formOne").submit(function(event) {
     event.preventDefault();
     const personInput = $("input#person").val();
-
-  $(".person").text(personInput);
+    $("person").text(personInput);
+  });
 
   $("formTwo").submit(function(event) {
     event.preventDefault();
@@ -29,5 +29,5 @@ $(document).ready(function() {
 
   $("#responseToUser").show();
     
- });
+  });
 });
