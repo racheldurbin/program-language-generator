@@ -4,8 +4,8 @@ $(document).ready(function() {
 
     $(".person").text(personInput);
 
-    $("#story").show();
-    
+    $("#responseToUser").show();
+
     event.preventDefault();
   });
 });
