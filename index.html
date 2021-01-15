@@ -44,19 +44,19 @@
     <form id="formThree">
     <h3>Do you like to challenge yourself?: (simpleResponse)</h3>
       <div class="radio2">
-        <label>
+        <label id="yes">
         <input type="radio" name="simpleResponse" value="yes" checked>
         Yes
         </label>
       </div>
       <div class="radio2">
-        <label>
+        <label id="no">
         <input type="radio" name="simpleResponse" value="no">
         No
         </label>
       </div>
       <div class="radio2">
-        <label>
+        <label id= "sometimes">
         <input type="radio" name="simpleResponse" value="sometimes">
         Sometimes
         </label>
@@ -66,30 +66,52 @@
     <form id="formFour">
     <h3>What is your relationship with technology: (relationship)</h3>
       <div class="radio3">
-        <label>
+        <label id="casual">
         <input type="radio" name="relationship" value="casual" checked>
         We keep it casual
         </label>
       </div>
       <div class="radio3">
-        <label>
+        <label id="complicated">
         <input type="radio" name="relationship" value="complicated">
         It's complicated
         </label>
       </div>
       <div class="radio3">
-        <label>
+        <label id="solid">
           <input type="radio" name="relationship" value="solid">
           We go wayyy back
         </label>
       </div>
     </form>
 
+    <form id="formFive">
+      <h3>What do you think would be the best route for you: (opinion)</h3>
+        <div class="radio4">
+          <label id="frontEnd">
+          <input type="radio" name="opinion" value="frontEnd" checked>
+          More front end developing
+          </label>
+        </div>
+        <div class="radio4">
+          <label id="backEnd">
+          <input type="radio" name="opinion" value="backEnd">
+          More back end developing 
+          </label>
+        </div>
+        <div class="radio4">
+          <label id="fullStack">
+            <input type="radio" name="opinion" value="fullStack">
+            I think I'd be interested in full stack!
+          </label>
+        </div>
+      </form>
+
 <button type="submit" class="btn btn-default">Submit</button>
 
 <div id="responseToUser">
   <p>
-    Based on your answers, <span class="person"></span> , it seems like JavaScript would be the best programming language to study if you selected designer. Ruby would be the route to take if you selected builder. C sharp would be the best option if you selected both. The other 
+    Based on your answers, <span class="person"></span> , it seems like JavaScript would be the best programming language to study if you selected designer. Ruby would be the route to take if you selected builder. C sharp would be the best option if you selected both. In regards to your relationship with technology, if you selected "it's complicated", then C sharp is the perfect match. If you selected "we keep it casual" then JavaScript would be your best partner. 
   </p>
 </div>
 

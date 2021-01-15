@@ -20,7 +20,5 @@ $(document).ready(function() {
     const relationship = $("input:radio[name=relationship]:checked").val();
     });
 
-
   $("#responseToUser").show();
-    
   });
