@@ -20,5 +20,10 @@ $(document).ready(function() {
     const relationship = $("input:radio[name=relationship]:checked").val();
     });
 
+    $("formFive").submit(function(event) {
+      event.preventDefault();
+      const opinion = $("input:radio[name=opinion]:checked").val();
+      });
+
   $("#responseToUser").show();
   });
